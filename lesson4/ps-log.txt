@@ -1,0 +1,997 @@
+Script started on 2023-10-28 23:20:10+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="132" LINES="40"]
+[?2004h]0;safwood@ubuntu: ~[01;32msafwood@ubuntu[00m:[01;34m~[00m$ exittop -b -n 1ps -fu safwoodeF[K
+[?2004lUID          PID    PPID  C    SZ   RSS PSR STIME TTY          TIME CMD
+root           1       0  0 42014  9656   1 21:26 ?        00:00:33 /sbin/init splash
+root           2       0  0     0     0   0 21:26 ?        00:00:00 [kthreadd]
+root           3       2  0     0     0   0 21:26 ?        00:00:00 [rcu_gp]
+root           4       2  0     0     0   0 21:26 ?        00:00:00 [rcu_par_gp]
+root           5       2  0     0     0   0 21:26 ?        00:00:00 [slub_flushwq]
+root           6       2  0     0     0   0 21:26 ?        00:00:00 [netns]
+root          10       2  0     0     0   0 21:26 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0     0     0   0 21:26 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0     0     0   0 21:26 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0     0     0   0 21:26 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0     0     0   0 21:26 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0     0     0   2 21:26 ?        00:00:03 [rcu_preempt]
+root          16       2  0     0     0   0 21:26 ?        00:00:00 [migration/0]
+root          17       2  0     0     0   0 21:26 ?        00:00:00 [idle_inject/0]
+root          19       2  0     0     0   0 21:26 ?        00:00:00 [cpuhp/0]
+root          20       2  0     0     0   1 21:26 ?        00:00:00 [cpuhp/1]
+root          21       2  0     0     0   1 21:26 ?        00:00:00 [idle_inject/1]
+root          22       2  0     0     0   1 21:26 ?        00:00:00 [migration/1]
+root          23       2  0     0     0   1 21:26 ?        00:00:00 [ksoftirqd/1]
+root          25       2  0     0     0   1 21:26 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          26       2  0     0     0   2 21:26 ?        00:00:00 [cpuhp/2]
+root          27       2  0     0     0   2 21:26 ?        00:00:00 [idle_inject/2]
+root          28       2  0     0     0   2 21:26 ?        00:00:00 [migration/2]
+root          29       2  0     0     0   2 21:26 ?        00:00:00 [ksoftirqd/2]
+root          31       2  0     0     0   2 21:26 ?        00:00:00 [kworker/2:0H-events_highpri]
+root          32       2  0     0     0   0 21:26 ?        00:00:00 [kdevtmpfs]
+root          33       2  0     0     0   2 21:26 ?        00:00:00 [inet_frag_wq]
+root          34       2  0     0     0   2 21:26 ?        00:00:00 [kauditd]
+root          35       2  0     0     0   2 21:26 ?        00:00:00 [khungtaskd]
+root          37       2  0     0     0   2 21:26 ?        00:00:00 [oom_reaper]
+root          39       2  0     0     0   2 21:26 ?        00:00:00 [writeback]
+root          40       2  0     0     0   0 21:26 ?        00:00:00 [kcompactd0]
+root          41       2  0     0     0   2 21:26 ?        00:00:00 [ksmd]
+root          43       2  0     0     0   0 21:26 ?        00:00:00 [khugepaged]
+root          44       2  0     0     0   2 21:26 ?        00:00:00 [kintegrityd]
+root          45       2  0     0     0   2 21:26 ?        00:00:00 [kblockd]
+root          46       2  0     0     0   2 21:26 ?        00:00:00 [blkcg_punt_bio]
+root          47       2  0     0     0   0 21:26 ?        00:00:00 [tpm_dev_wq]
+root          48       2  0     0     0   2 21:26 ?        00:00:00 [ata_sff]
+root          49       2  0     0     0   0 21:26 ?        00:00:00 [md]
+root          50       2  0     0     0   2 21:26 ?        00:00:00 [edac-poller]
+root          51       2  0     0     0   0 21:26 ?        00:00:00 [devfreq_wq]
+root          52       2  0     0     0   0 21:26 ?        00:00:00 [watchdogd]
+root          54       2  0     0     0   1 21:26 ?        00:00:01 [kworker/1:1H-kblockd]
+root          55       2  0     0     0   1 21:26 ?        00:00:05 [kswapd0]
+root          56       2  0     0     0   2 21:26 ?        00:00:00 [ecryptfs-kthread]
+root          57       2  0     0     0   2 21:26 ?        00:00:00 [kthrotld]
+root          58       2  0     0     0   2 21:26 ?        00:00:00 [acpi_thermal_pm]
+root          59       2  0     0     0   2 21:26 ?        00:00:00 [xenbus_probe]
+root          60       2  0     0     0   2 21:26 ?        00:00:00 [scsi_eh_0]
+root          61       2  0     0     0   2 21:26 ?        00:00:00 [scsi_tmf_0]
+root          62       2  0     0     0   0 21:26 ?        00:00:00 [scsi_eh_1]
+root          63       2  0     0     0   2 21:26 ?        00:00:00 [scsi_tmf_1]
+root          67       2  0     0     0   1 21:26 ?        00:00:00 [mld]
+root          68       2  0     0     0   2 21:26 ?        00:00:00 [ipv6_addrconf]
+root          77       2  0     0     0   2 21:26 ?        00:00:00 [kstrp]
+root          79       2  0     0     0   2 21:26 ?        00:00:00 [zswap-shrink]
+root          80       2  0     0     0   1 21:26 ?        00:00:00 [kworker/u7:0]
+root          84       2  0     0     0   0 21:26 ?        00:00:00 [charger_manager]
+root         118       2  0     0     0   2 21:26 ?        00:00:01 [kworker/2:1H-kblockd]
+root         128       2  0     0     0   2 21:26 ?        00:00:00 [scsi_eh_2]
+root         129       2  0     0     0   0 21:26 ?        00:00:00 [scsi_tmf_2]
+root         154       2  0     0     0   1 21:26 ?        00:00:00 [jbd2/sda3-8]
+root         155       2  0     0     0   0 21:26 ?        00:00:00 [ext4-rsv-conver]
+root         194       1  0 12169 14464   0 21:26 ?        00:00:00 /lib/systemd/systemd-journald
+root         235       2  0     0     0   1 21:26 ?        00:00:00 [irq/18-vmwgfx]
+root         250       1  0  6919  5492   0 21:26 ?        00:00:00 /lib/systemd/systemd-udevd
+root         281       2  0     0     0   0 21:26 ?        00:00:00 [kworker/0:2H-kblockd]
+systemd+     467       1  0  3706  4480   0 21:26 ?        00:00:05 /lib/systemd/systemd-oomd
+systemd+     474       1  0  6448  7800   1 21:26 ?        00:00:00 /lib/systemd/systemd-resolved
+systemd+     476       1  0 22344  4864   2 21:26 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root         569       1  0 62157  6320   0 21:26 ?        00:00:00 /usr/libexec/accounts-daemon
+root         570       1  0   703  1920   2 21:26 ?        00:00:00 /usr/sbin/acpid
+avahi        573       1  0  1907  3584   0 21:26 ?        00:00:00 avahi-daemon: running [ubuntu.local]
+root         574       1  0  4537  2688   0 21:26 ?        00:00:00 /usr/sbin/cron -f -P
+message+     575       1  0  2780  5504   1 21:26 ?        00:00:02 @dbus-daemon --system --address=systemd: --nofork --nopidfile --
+root         576       1  0 67408 10316   0 21:26 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root         583       1  0 20674  3584   1 21:26 ?        00:00:00 /usr/sbin/irqbalance --foreground
+root         586       1  0 12422 10368   2 21:26 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-trig
+root         587       1  0 62931  9704   0 21:26 ?        00:00:00 /usr/libexec/polkitd --no-debug
+root         588       1  0 62179  6400   1 21:26 ?        00:00:00 /usr/libexec/power-profiles-daemon
+syslog       589       1  0 55606  4864   0 21:26 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         596       1  0 61314  5632   0 21:26 ?        00:00:00 /usr/libexec/switcheroo-control
+root         597       1  0  5908  5616   1 21:26 ?        00:00:00 /lib/systemd/systemd-logind
+root         598       1  0 98263  8508   1 21:26 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root         599       1  0  4123  4096   0 21:26 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        601     573  0  1860  1432   1 21:26 ?        00:00:00 avahi-daemon: chroot helper
+root         679       1  0 79490  7652   1 21:26 ?        00:00:02 /usr/sbin/ModemManager
+root         681       1  0 20416  7808   2 21:26 ?        00:00:00 /usr/sbin/cupsd -l
+lp           686     681  0  4071  4096   1 21:26 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
+root         689       1  0 31699 11264   1 21:26 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgra
+root         702       1  0  3856  4480   1 21:26 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         729       1  0 62468  6912   1 21:26 ?        00:00:00 /usr/sbin/gdm3
+root         746       1  0 43154  7168   1 21:26 ?        00:00:00 /usr/sbin/cups-browsed
+root         747     729  0 81643  7936   2 21:26 ?        00:00:00 gdm-session-worker [pam/gdm-autologin]
+kernoops     758       1  0  3271  2188   2 21:26 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops     760       1  0  3271  2324   0 21:26 ?        00:00:00 /usr/sbin/kerneloops
+safwood      812       1  0  6153 13008   2 21:26 ?        00:00:06 /lib/systemd/systemd --user
+safwood      813     812  0 26070  2740   0 21:26 ?        00:00:00 (sd-pam)
+safwood      819     812  0 12056  4992   0 21:26 ?        00:00:00 /usr/bin/pipewire
+safwood      820     812  0  8028  4736   1 21:26 ?        00:00:00 /usr/bin/pipewire-media-session
+safwood      821     812  0 488892 16260  1 21:26 ?        00:00:02 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+rtkit        830       1  0 38500  2816   0 21:26 ?        00:00:00 /usr/libexec/rtkit-daemon
+safwood      837       1  0 136122 7456   0 21:26 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+safwood      844     747  0 42760  4992   0 21:26 tty2     00:00:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ub
+safwood      846     812  0  4084 10624   0 21:26 ?        00:00:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nop
+safwood      851     844  0 57923 11008   1 21:26 tty2     00:00:00 /usr/libexec/gnome-session-binary --session=ubuntu
+safwood      864     812  0 62353  6016   0 21:26 ?        00:00:00 /usr/libexec/gvfsd
+safwood      885     812  0 95222  5376   0 21:26 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+safwood      933     812  0 25140  4480   1 21:26 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+safwood      951     812  0 166795 11904  2 21:26 ?        00:00:01 /usr/libexec/gnome-session-binary --systemd-service --session=ub
+safwood      977     951  0 77404  6272   2 21:26 ?        00:00:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+safwood      981     812  8 1315741 340868 1 21:26 ?       00:09:16 /usr/bin/gnome-shell
+safwood      995     977  0  2140  3840   1 21:26 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/a
+safwood     1010     812  0 136389 6144   2 21:26 ?        00:00:00 /usr/libexec/xdg-document-portal
+safwood     1013     812  0 61200  5248   2 21:26 ?        00:00:00 /usr/libexec/xdg-permission-store
+root        1019    1010  0   698  1792   0 21:26 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtyp
+safwood     1120     812  0 145700 9344   2 21:27 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+safwood     1126     812  0 237450 15360  2 21:27 ?        00:00:00 /usr/libexec/evolution-source-registry
+root        1129       1  0 62749  6656   1 21:27 ?        00:00:01 /usr/libexec/upowerd
+safwood     1140     812  0 81143  8064   1 21:27 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+safwood     1142     812  0 145711 11392  2 21:27 ?        00:00:00 /usr/libexec/goa-daemon
+safwood     1150     812  0 61278  5632   0 21:27 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+safwood     1153     812  0 212288 14848  2 21:27 ?        00:00:01 /usr/libexec/evolution-calendar-factory
+safwood     1164     812  0 86763  9088   2 21:27 ?        00:00:00 /usr/libexec/goa-identity-service
+safwood     1173     812  0 61548  5888   2 21:27 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+safwood     1185     812  0 80963  6272   1 21:27 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+safwood     1204     812  0 61321  5504   0 21:27 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+safwood     1239     812  0 39269  5376   0 21:27 ?        00:00:00 /usr/libexec/dconf-service
+root        1242       1  0 113878 42452  0 21:27 ?        00:00:24 /usr/libexec/packagekitd
+safwood     1252     812  0 42926  5632   0 21:27 ?        00:00:00 /usr/libexec/gvfsd-metadata
+safwood     1266     812  0 170222 11264  1 21:27 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+safwood     1290     864  0 80914  7168   2 21:27 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/
+safwood     1302     812  0 40670  6656   0 21:27 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+safwood     1304     812  0 650475 12048  2 21:27 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notification
+safwood     1320     812  0   722  1664   0 21:27 ?        00:00:01 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYP
+safwood     1322     812  0 79768  5760   1 21:27 ?        00:00:01 /usr/libexec/gsd-a11y-settings
+safwood     1324     812  0 151785 17992  0 21:27 ?        00:00:00 /usr/libexec/gsd-color
+safwood     1325     812  0 96029 11136   0 21:27 ?        00:00:00 /usr/libexec/gsd-datetime
+safwood     1326     812  0 80143  6656   1 21:27 ?        00:00:00 /usr/libexec/gsd-housekeeping
+safwood     1328    1320  0 80992  7188   2 21:27 ?        00:00:02 /usr/bin/ibus-daemon --panel disable
+safwood     1330     812  0 87315 15872   1 21:27 ?        00:00:00 /usr/libexec/gsd-keyboard
+safwood     1331     812  0 218217 17244  1 21:27 ?        00:00:00 /usr/libexec/gsd-media-keys
+safwood     1332     812  0 133236 18148  2 21:27 ?        00:00:00 /usr/libexec/gsd-power
+safwood     1333     812  0 64626  7040   1 21:27 ?        00:00:00 /usr/libexec/gsd-print-notifications
+safwood     1334     812  0 116627 5504   1 21:27 ?        00:00:00 /usr/libexec/gsd-rfkill
+safwood     1335     812  0 61235  5248   2 21:27 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+safwood     1338     812  0 118647 6784   0 21:27 ?        00:00:00 /usr/libexec/gsd-sharing
+safwood     1339     812  0 98673  6272   2 21:27 ?        00:00:00 /usr/libexec/gsd-smartcard
+safwood     1341     812  0 82000  7296   0 21:27 ?        00:00:00 /usr/libexec/gsd-sound
+safwood     1342     812  0 105892 16132  0 21:27 ?        00:00:01 /usr/libexec/gsd-wacom
+safwood     1403    1328  0 43033  5248   0 21:27 ?        00:00:00 /usr/libexec/ibus-memconf
+safwood     1410    1328  0 89121 20144   1 21:27 ?        00:00:01 /usr/libexec/ibus-extension-gtk3
+safwood     1438     812  0 61478  5632   0 21:27 ?        00:00:00 /usr/libexec/ibus-portal
+safwood     1446     812  0 87752 11008   2 21:27 ?        00:00:00 /usr/libexec/gsd-printer
+safwood     1447     951  0 58066  6400   2 21:27 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+safwood     1451     951  0 189517 26116  0 21:27 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+safwood     1497     812  0 291510 223868 0 21:27 ?        00:00:21 /snap/snap-store/959/usr/bin/snap-store --gapplication-service
+safwood     1591    1328  0 43033  6144   2 21:27 ?        00:00:00 /usr/libexec/ibus-engine-simple
+colord      1629       1  0 63524  9124   0 21:27 ?        00:00:00 /usr/libexec/colord
+safwood     1645     812  0 179472 25288  2 21:27 ?        00:00:02 /usr/libexec/tracker-miner-fs-3
+safwood     1672     812  0 636179 16644  0 21:27 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+root        1777       1  0 100470 11756  0 21:27 ?        00:00:00 /usr/libexec/fwupd/fwupd
+safwood     2605     951  0 125823 22916  1 21:28 ?        00:00:00 update-notifier
+safwood     2820     864  0 99346  6912   1 21:28 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.6 /org/gtk/gvfs/exec_spa
+safwood     2833     864  0 81369  6912   1 21:28 ?        00:00:00 /usr/libexec/gvfsd-dnssd --spawner :1.6 /org/gtk/gvfs/exec_spaw/
+safwood     3463     812  0 224377 19464  1 21:29 ?        00:00:00 /usr/bin/gnome-calendar --gapplication-service
+safwood     3605     812  0 119069 26036  2 21:29 ?        00:00:00 /usr/bin/seahorse --gapplication-service
+safwood     3657     812  0 11139  9216   0 21:30 ?        00:00:00 /usr/bin/python3 /usr/bin/gnome-terminal --wait
+safwood     3660    3657  0 98086 19576   1 21:30 ?        00:00:00 /usr/bin/gnome-terminal.real --wait
+safwood     3665     812  0 207829 40540  2 21:30 ?        00:00:07 /usr/libexec/gnome-terminal-server
+safwood     3683    3665  0  4982  4096   1 21:30 pts/0    00:00:00 bash
+root        3955       1  0 366841 19236  2 21:32 ?        00:00:26 /usr/lib/snapd/snapd
+root        4186       2  0     0     0   0 21:32 ?        00:00:01 [kworker/0:1H-kblockd]
+safwood     6359     981  0 56702 41280   0 21:38 ?        00:00:16 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /ru
+safwood     6363     812  0 134363 25680  1 21:38 ?        00:00:00 /usr/libexec/gsd-xsettings
+safwood     6390     812  0 50698 19248   2 21:38 ?        00:00:00 /usr/libexec/ibus-x11
+safwood     6591     812  0 309258 9984   2 21:38 ?        00:00:00 /usr/bin/snap userd
+safwood     7106     981  0 294473760 152356 1 21:39 ?     00:00:29 /usr/share/code/code --unity-launch
+safwood     7111    7106  0 8444660 33024 2 21:39 ?        00:00:00 /usr/share/code/code --type=zygote --no-zygote-sandbox
+safwood     7112    7106  0 8444657 35712 1 21:39 ?        00:00:00 /usr/share/code/code --type=zygote
+safwood     7114    7112  0 8444664 6428  2 21:39 ?        00:00:00 /usr/share/code/code --type=zygote
+safwood     7128     812  0 8400383 12624 2 21:39 ?        00:00:00 /usr/share/code/chrome_crashpad_handler --monitor-self-annotatio
+safwood     7143    7111  0 8515133 58436 1 21:39 ?        00:00:22 /usr/share/code/code --type=gpu-process --crashpad-handler-pid=7
+safwood     7152    7106  0 8457088 49568 0 21:39 ?        00:00:01 /usr/share/code/code --type=utility --utility-sub-type=network.m
+safwood     7165    7114  2 296974629 220744 0 21:39 ?     00:02:11 /usr/share/code/code --type=renderer --crashpad-handler-pid=7128
+safwood     7208    7106  0 294341522 77920 2 21:39 ?      00:00:12 /usr/share/code/code --type=utility --utility-sub-type=node.mojo
+safwood     7268    7106  0 294347812 83188 1 21:39 ?      00:00:12 /usr/share/code/code --type=utility --utility-sub-type=node.mojo
+safwood     7674     837  0  2024  5760   2 21:42 ?        00:00:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+safwood     7722    3683  0 61600  8960   2 21:43 pts/0    00:00:01 fish
+safwood     8282    7106  0 294345761 79232 0 21:51 ?      00:00:01 /usr/share/code/code --type=utility --utility-sub-type=node.mojo
+safwood     8284    7106  0 294341654 133744 0 21:51 ?     00:00:07 /usr/share/code/code --type=utility --utility-sub-type=node.mojo
+safwood     8340    7268  0  4989  5504   1 21:52 pts/1    00:00:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/w
+safwood     9059    8284  0 294320032 72376 0 22:02 ?      00:00:00 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share
+safwood     9180    7722  0  4352  2688   2 22:13 pts/0    00:00:00 less /proc/cpuinfo
+root        9414       2  0     0     0   1 22:20 ?        00:00:01 [kworker/1:1-events]
+root        9473       2  0     0     0   0 22:20 ?        00:00:00 [kworker/0:3-mm_percpu_wq]
+root        9709       2  0     0     0   0 22:31 ?        00:00:00 [kworker/0:0]
+safwood     9747     981  0 715708 59484  0 22:48 ?        00:00:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.j
+root        9778       2  0     0     0   2 22:48 ?        00:00:00 [kworker/u6:2-events_unbound]
+root        9899       2  0     0     0   2 22:53 ?        00:00:00 [kworker/u6:4-events_unbound]
+root       10115       2  0     0     0   1 23:04 ?        00:00:00 [kworker/1:0-ata_sff]
+root       10116       2  0     0     0   2 23:04 ?        00:00:00 [kworker/2:0-mm_percpu_wq]
+safwood    10159     812  0 251631 72720  2 23:06 ?        00:00:02 /usr/bin/nautilus --gapplication-service
+safwood    10167     812  0 121222 13568  0 23:06 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+safwood    10171     812  0 167735 28180  2 23:06 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gnome
+safwood    10183     812  0 88145 24580   2 23:06 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+root       10241       2  0     0     0   2 23:06 ?        00:00:00 [kworker/2:3-events]
+root       10391       2  0     0     0   0 23:15 ?        00:00:00 [kworker/u6:0-events_power_efficient]
+root       10431       2  0     0     0   1 23:16 ?        00:00:00 [kworker/u6:1-events_power_efficient]
+root       10454       2  0     0     0   1 23:16 ?        00:00:00 [kworker/1:2-events]
+safwood    10546    7114  0 296430221 86616 1 23:18 ?      00:00:00 /usr/share/code/code --type=renderer --crashpad-handler-pid=7128
+safwood    10626    7722  0  4260  2304   2 23:20 pts/0    00:00:00 script ps-log.txt
+safwood    10627   10626  0  4982  5376   0 23:20 pts/2    00:00:00 bash -i
+safwood    10636     812  2 120459 31788  2 23:20 ?        00:00:00 /usr/libexec/tracker-extract-3
+safwood    10644   10627  0  5331  3456   0 23:20 pts/2    00:00:00 ps -eF
+[?2004h]0;safwood@ubuntu: ~[01;32msafwood@ubuntu[00m:[01;34m~[00m$ ps -eF[2Pexittop -b -n 1ps -fu safwood
+[?2004lUID          PID    PPID  C STIME TTY          TIME CMD
+safwood      812       1  0 21:26 ?        00:00:06 /lib/systemd/systemd --user
+safwood      813     812  0 21:26 ?        00:00:00 (sd-pam)
+safwood      819     812  0 21:26 ?        00:00:00 /usr/bin/pipewire
+safwood      820     812  0 21:26 ?        00:00:00 /usr/bin/pipewire-media-session
+safwood      821     812  0 21:26 ?        00:00:02 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+safwood      837       1  0 21:26 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+safwood      844     747  0 21:26 tty2     00:00:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gn
+safwood      846     812  0 21:26 ?        00:00:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd
+safwood      851     844  0 21:26 tty2     00:00:00 /usr/libexec/gnome-session-binary --session=ubuntu
+safwood      864     812  0 21:26 ?        00:00:00 /usr/libexec/gvfsd
+safwood      885     812  0 21:26 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+safwood      933     812  0 21:26 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+safwood      951     812  0 21:26 ?        00:00:01 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+safwood      977     951  0 21:26 ?        00:00:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+safwood      981     812  8 21:26 ?        00:09:16 /usr/bin/gnome-shell
+safwood      995     977  0 21:26 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.con
+safwood     1010     812  0 21:26 ?        00:00:00 /usr/libexec/xdg-document-portal
+safwood     1013     812  0 21:26 ?        00:00:00 /usr/libexec/xdg-permission-store
+safwood     1120     812  0 21:27 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+safwood     1126     812  0 21:27 ?        00:00:00 /usr/libexec/evolution-source-registry
+safwood     1140     812  0 21:27 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+safwood     1142     812  0 21:27 ?        00:00:00 /usr/libexec/goa-daemon
+safwood     1150     812  0 21:27 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+safwood     1153     812  0 21:27 ?        00:00:01 /usr/libexec/evolution-calendar-factory
+safwood     1164     812  0 21:27 ?        00:00:00 /usr/libexec/goa-identity-service
+safwood     1173     812  0 21:27 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+safwood     1185     812  0 21:27 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+safwood     1204     812  0 21:27 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+safwood     1239     812  0 21:27 ?        00:00:00 /usr/libexec/dconf-service
+safwood     1252     812  0 21:27 ?        00:00:00 /usr/libexec/gvfsd-metadata
+safwood     1266     812  0 21:27 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+safwood     1290     864  0 21:27 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+safwood     1302     812  0 21:27 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+safwood     1304     812  0 21:27 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+safwood     1320     812  0 21:27 ?        00:00:01 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && 
+safwood     1322     812  0 21:27 ?        00:00:01 /usr/libexec/gsd-a11y-settings
+safwood     1324     812  0 21:27 ?        00:00:00 /usr/libexec/gsd-color
+safwood     1325     812  0 21:27 ?        00:00:00 /usr/libexec/gsd-datetime
+safwood     1326     812  0 21:27 ?        00:00:00 /usr/libexec/gsd-housekeeping
+safwood     1328    1320  0 21:27 ?        00:00:02 /usr/bin/ibus-daemon --panel disable
+safwood     1330     812  0 21:27 ?        00:00:00 /usr/libexec/gsd-keyboard
+safwood     1331     812  0 21:27 ?        00:00:00 /usr/libexec/gsd-media-keys
+safwood     1332     812  0 21:27 ?        00:00:00 /usr/libexec/gsd-power
+safwood     1333     812  0 21:27 ?        00:00:00 /usr/libexec/gsd-print-notifications
+safwood     1334     812  0 21:27 ?        00:00:00 /usr/libexec/gsd-rfkill
+safwood     1335     812  0 21:27 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+safwood     1338     812  0 21:27 ?        00:00:00 /usr/libexec/gsd-sharing
+safwood     1339     812  0 21:27 ?        00:00:00 /usr/libexec/gsd-smartcard
+safwood     1341     812  0 21:27 ?        00:00:00 /usr/libexec/gsd-sound
+safwood     1342     812  0 21:27 ?        00:00:01 /usr/libexec/gsd-wacom
+safwood     1403    1328  0 21:27 ?        00:00:00 /usr/libexec/ibus-memconf
+safwood     1410    1328  0 21:27 ?        00:00:01 /usr/libexec/ibus-extension-gtk3
+safwood     1438     812  0 21:27 ?        00:00:00 /usr/libexec/ibus-portal
+safwood     1446     812  0 21:27 ?        00:00:00 /usr/libexec/gsd-printer
+safwood     1447     951  0 21:27 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+safwood     1451     951  0 21:27 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+safwood     1497     812  0 21:27 ?        00:00:21 /snap/snap-store/959/usr/bin/snap-store --gapplication-service
+safwood     1591    1328  0 21:27 ?        00:00:00 /usr/libexec/ibus-engine-simple
+safwood     1645     812  0 21:27 ?        00:00:02 /usr/libexec/tracker-miner-fs-3
+safwood     1672     812  0 21:27 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+safwood     2605     951  0 21:28 ?        00:00:00 update-notifier
+safwood     2820     864  0 21:28 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
+safwood     2833     864  0 21:28 ?        00:00:00 /usr/libexec/gvfsd-dnssd --spawner :1.6 /org/gtk/gvfs/exec_spaw/3
+safwood     3463     812  0 21:29 ?        00:00:00 /usr/bin/gnome-calendar --gapplication-service
+safwood     3605     812  0 21:29 ?        00:00:00 /usr/bin/seahorse --gapplication-service
+safwood     3657     812  0 21:30 ?        00:00:00 /usr/bin/python3 /usr/bin/gnome-terminal --wait
+safwood     3660    3657  0 21:30 ?        00:00:00 /usr/bin/gnome-terminal.real --wait
+safwood     3665     812  0 21:30 ?        00:00:07 /usr/libexec/gnome-terminal-server
+safwood     3683    3665  0 21:30 pts/0    00:00:00 bash
+safwood     6359     981  0 21:38 ?        00:00:16 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mut
+safwood     6363     812  0 21:38 ?        00:00:00 /usr/libexec/gsd-xsettings
+safwood     6390     812  0 21:38 ?        00:00:00 /usr/libexec/ibus-x11
+safwood     6591     812  0 21:38 ?        00:00:00 /usr/bin/snap userd
+safwood     7106     981  0 21:39 ?        00:00:29 /usr/share/code/code --unity-launch
+safwood     7111    7106  0 21:39 ?        00:00:00 /usr/share/code/code --type=zygote --no-zygote-sandbox
+safwood     7112    7106  0 21:39 ?        00:00:00 /usr/share/code/code --type=zygote
+safwood     7114    7112  0 21:39 ?        00:00:00 /usr/share/code/code --type=zygote
+safwood     7128     812  0 21:39 ?        00:00:00 /usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad
+safwood     7143    7111  0 21:39 ?        00:00:22 /usr/share/code/code --type=gpu-process --crashpad-handler-pid=7128 --enable-cra
+safwood     7152    7106  0 21:39 ?        00:00:01 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkServ
+safwood     7165    7114  2 21:39 ?        00:02:11 /usr/share/code/code --type=renderer --crashpad-handler-pid=7128 --enable-crash-
+safwood     7208    7106  0 21:39 ?        00:00:12 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --
+safwood     7268    7106  0 21:39 ?        00:00:12 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --
+safwood     7674     837  0 21:42 ?        00:00:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+safwood     7722    3683  0 21:43 pts/0    00:00:01 fish
+safwood     8282    7106  0 21:51 ?        00:00:01 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --
+safwood     8284    7106  0 21:51 ?        00:00:07 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --
+safwood     8340    7268  0 21:52 pts/1    00:00:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib
+safwood     9059    8284  0 22:02 ?        00:00:00 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/
+safwood     9180    7722  0 22:13 pts/0    00:00:00 less /proc/cpuinfo
+safwood     9747     981  0 22:48 ?        00:00:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/sha
+safwood    10159     812  0 23:06 ?        00:00:02 /usr/bin/nautilus --gapplication-service
+safwood    10167     812  0 23:06 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+safwood    10171     812  0 23:06 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gnome
+safwood    10183     812  0 23:06 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+safwood    10546    7114  0 23:18 ?        00:00:00 /usr/share/code/code --type=renderer --crashpad-handler-pid=7128 --enable-crash-
+safwood    10626    7722  0 23:20 pts/0    00:00:00 script ps-log.txt
+safwood    10627   10626  0 23:20 pts/2    00:00:00 bash -i
+safwood    10636     812  0 23:20 ?        00:00:00 /usr/libexec/tracker-extract-3
+safwood    10647   10627  0 23:20 pts/2    00:00:00 ps -fu safwood
+[?2004h]0;safwood@ubuntu: ~[01;32msafwood@ubuntu[00m:[01;34m~[00m$ ps -fu safwoodeF[K[2Pexittop -b -n 1[K[K[K[K[K
+[?2004ltop - 23:20:23 up  1:54,  1 user,  load average: 0,66, 0,29, 0,16
+Tasks: 216 total,   2 running, 213 sleeping,   1 stopped,   0 zombie
+%Cpu(s):  4,9 us,  0,0 sy,  0,0 ni, 95,1 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   2400,1 total,     90,2 free,   1394,2 used,    915,7 buff/cache
+MiB Swap:   2140,0 total,   1604,8 free,    535,2 used.    776,1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    981 safwood   20   0 5262968 340868  83380 S  37,5  13,9   9:17.44 gnome-shell
+   8282 safwood   20   0 1122,8g  79232  64128 S   6,2   3,2   0:01.53 code
+   9778 root      20   0       0      0      0 I   6,2   0,0   0:00.59 kworker/u6:2-writeback
+      1 root      20   0  168056   9656   5432 S   0,0   0,4   0:33.33 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.02 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_flushwq
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns
+     10 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mm_percpu_wq
+     11 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_kthread
+     12 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_rude_kthread
+     13 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_trace_kthread
+     14 root      20   0       0      0      0 S   0,0   0,0   0:00.29 ksoftirqd/0
+     15 root      20   0       0      0      0 R   0,0   0,0   0:03.62 rcu_preempt
+     16 root      rt   0       0      0      0 S   0,0   0,0   0:00.07 migration/0
+     17 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/0
+     19 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0
+     20 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/1
+     21 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/1
+     22 root      rt   0       0      0      0 S   0,0   0,0   0:00.17 migration/1
+     23 root      20   0       0      0      0 S   0,0   0,0   0:00.42 ksoftirqd/1
+     25 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0H-events_highpri
+     26 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/2
+     27 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/2
+     28 root      rt   0       0      0      0 S   0,0   0,0   0:00.17 migration/2
+     29 root      20   0       0      0      0 S   0,0   0,0   0:00.14 ksoftirqd/2
+     31 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/2:0H-events_highpri
+     32 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kdevtmpfs
+     33 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 inet_frag_wq
+     34 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kauditd
+     35 root      20   0       0      0      0 S   0,0   0,0   0:00.00 khungtaskd
+     37 root      20   0       0      0      0 S   0,0   0,0   0:00.00 oom_reaper
+     39 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 writeback
+     40 root      20   0       0      0      0 S   0,0   0,0   0:00.97 kcompactd0
+     41 root      25   5       0      0      0 S   0,0   0,0   0:00.00 ksmd
+     43 root      39  19       0      0      0 S   0,0   0,0   0:00.00 khugepaged
+     44 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kintegrityd
+     45 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kblockd
+     46 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 blkcg_punt_bio
+     47 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 tpm_dev_wq
+     48 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ata_sff
+     49 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 md
+     50 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 edac-poller
+     51 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 devfreq_wq
+     52 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 watchdogd
+     54 root       0 -20       0      0      0 I   0,0   0,0   0:01.59 kworker/1:1H-kblockd
+     55 root      20   0       0      0      0 S   0,0   0,0   0:05.92 kswapd0
+     56 root      20   0       0      0      0 S   0,0   0,0   0:00.00 ecryptfs-kthread
+     57 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kthrotld
+     58 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 acpi_thermal_pm
+     59 root      20   0       0      0      0 S   0,0   0,0   0:00.00 xenbus_probe
+     60 root      20   0       0      0      0 S   0,0   0,0   0:00.02 scsi_eh_0
+     61 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_0
+     62 root      20   0       0      0      0 S   0,0   0,0   0:00.03 scsi_eh_1
+     63 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_1
+     67 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mld
+     68 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ipv6_addrconf
+     77 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kstrp
+     79 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 zswap-shrink
+     80 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u7:0
+     84 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 charger_manager
+    118 root       0 -20       0      0      0 I   0,0   0,0   0:01.42 kworker/2:1H-kblockd
+    128 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_2
+    129 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_2
+    154 root      20   0       0      0      0 S   0,0   0,0   0:00.95 jbd2/sda3-8
+    155 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ext4-rsv-conver
+    194 root      19  -1   48676  14464  13184 S   0,0   0,6   0:00.78 systemd-journal
+    235 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/18-vmwgfx
+    250 root      20   0   27676   5492   3060 S   0,0   0,2   0:00.85 systemd-udevd
+    281 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:2H-kblockd
+    467 systemd+  20   0   14824   4480   3712 S   0,0   0,2   0:05.19 systemd-oomd
+    474 systemd+  20   0   25792   7800   5248 S   0,0   0,3   0:00.29 systemd-resolve
+    476 systemd+  20   0   89376   4864   4096 S   0,0   0,2   0:00.10 systemd-timesyn
+    569 root      20   0  248628   6320   5552 S   0,0   0,3   0:00.27 accounts-daemon
+    570 root      20   0    2812   1920   1792 S   0,0   0,1   0:00.17 acpid
+    573 avahi     20   0    7628   3584   3200 S   0,0   0,1   0:00.09 avahi-daemon
+    574 root      20   0   18148   2688   2432 S   0,0   0,1   0:00.01 cron
+    575 message+  20   0   11120   5504   3328 S   0,0   0,2   0:02.07 dbus-daemon
+    576 root      20   0  269632  10316   8396 S   0,0   0,4   0:00.51 NetworkManager
+    583 root      20   0   82696   3584   3328 S   0,0   0,1   0:00.18 irqbalance
+    586 root      20   0   49688  10368   6400 S   0,0   0,4   0:00.17 networkd-dispat
+    587 root      20   0  251724   9704   6228 S   0,0   0,4   0:00.59 polkitd
+    588 root      20   0  248716   6400   5632 S   0,0   0,3   0:00.02 power-profiles-
+    589 syslog    20   0  222424   4864   3584 S   0,0   0,2   0:00.18 rsyslogd
+    596 root      20   0  245256   5632   4992 S   0,0   0,2   0:00.06 switcheroo-cont
+    597 root      20   0   23632   5616   4480 S   0,0   0,2   0:00.21 systemd-logind
+    598 root      20   0  393052   8508   6460 S   0,0   0,3   0:00.56 udisksd
+    599 root      20   0   16492   4096   3328 S   0,0   0,2   0:00.05 wpa_supplicant
+    601 avahi     20   0    7440   1432   1152 S   0,0   0,1   0:00.00 avahi-daemon
+    679 root      20   0  317960   7652   6116 S   0,0   0,3   0:02.02 ModemManager
+    681 root      20   0   81664   7808   6656 S   0,0   0,3   0:00.07 cupsd
+    686 lp        20   0   16284   4096   3328 S   0,0   0,2   0:00.01 dbus
+    689 root      20   0  126796  11264   7424 S   0,0   0,5   0:00.13 unattended-upgr
+    702 root      20   0   15424   4480   3328 S   0,0   0,2   0:00.00 sshd
+    729 root      20   0  249872   6912   6272 S   0,0   0,3   0:00.04 gdm3
+    746 root      20   0  172616   7168   6144 S   0,0   0,3   0:00.05 cups-browsed
+    747 root      20   0  326572   7936   6400 S   0,0   0,3   0:00.06 gdm-session-wor
+    758 kernoops  20   0   13084   2188   1920 S   0,0   0,1   0:00.00 kerneloops
+    760 kernoops  20   0   13084   2324   1920 S   0,0   0,1   0:00.00 kerneloops
+    812 safwood   20   0   24612  13008   5248 S   0,0   0,5   0:06.96 systemd
+    813 safwood   20   0  104280   2740   1536 S   0,0   0,1   0:00.00 (sd-pam)
+    819 safwood    9 -11   48224   4992   3968 S   0,0   0,2   0:00.08 pipewire
+    820 safwood   20   0   32112   4736   3712 S   0,0   0,2   0:00.08 pipewire-media-
+    821 safwood    9 -11 1955568  16260  12036 S   0,0   0,7   0:02.51 pulseaudio
+    830 rtkit     21   1  154000   2816   2688 S   0,0   0,1   0:00.12 rtkit-daemon
+    837 safwood   20   0  544488   7456   6400 S   0,0   0,3   0:00.24 gnome-keyring-d
+    844 safwood   20   0  171040   4992   4736 S   0,0   0,2   0:00.02 gdm-wayland-ses
+    846 safwood   20   0   16336  10624   3584 S   0,0   0,4   0:01.98 dbus-daemon
+    851 safwood   20   0  231692  11008   9728 S   0,0   0,4   0:00.11 gnome-session-b
+    864 safwood   20   0  249412   6016   5376 S   0,0   0,2   0:00.11 gvfsd
+    885 safwood   20   0  380888   5376   5120 S   0,0   0,2   0:00.02 gvfsd-fuse
+    933 safwood   20   0  100560   4480   4096 S   0,0   0,2   0:00.00 gnome-session-c
+    951 safwood   20   0  667180  11904  10368 S   0,0   0,5   0:01.77 gnome-session-b
+    977 safwood   20   0  309616   6272   5888 S   0,0   0,3   0:00.03 at-spi-bus-laun
+    995 safwood   20   0    8560   3840   3328 S   0,0   0,2   0:00.07 dbus-daemon
+   1010 safwood   20   0  545556   6144   5504 S   0,0   0,2   0:00.15 xdg-document-po
+   1013 safwood   20   0  244800   5248   4864 S   0,0   0,2   0:00.02 xdg-permission-
+   1019 root      20   0    2792   1792   1792 S   0,0   0,1   0:00.00 fusermount3
+   1120 safwood   20   0  582800   9344   8192 S   0,0   0,4   0:00.15 gnome-shell-cal
+   1126 safwood   20   0  949800  15360  12416 S   0,0   0,6   0:00.15 evolution-sourc
+   1129 root      20   0  250996   6656   5504 S   0,0   0,3   0:01.06 upowerd
+   1140 safwood   20   0  324572   8064   6400 S   0,0   0,3   0:00.18 gvfs-udisks2-vo
+   1142 safwood   20   0  582844  11392  10752 S   0,0   0,5   0:00.22 goa-daemon
+   1150 safwood   20   0  245112   5632   5120 S   0,0   0,2   0:00.05 gvfs-mtp-volume
+   1153 safwood   20   0  849152  14848  12160 S   0,0   0,6   0:01.79 evolution-calen
+   1164 safwood   20   0  347052   9088   8832 S   0,0   0,4   0:00.10 goa-identity-se
+   1173 safwood   20   0  246192   5888   5248 S   0,0   0,2   0:00.06 gvfs-gphoto2-vo
+   1185 safwood   20   0  323852   6272   5120 S   0,0   0,3   0:00.40 gvfs-afc-volume
+   1204 safwood   20   0  245284   5504   4736 S   0,0   0,2   0:00.04 gvfs-goa-volume
+   1239 safwood   20   0  157076   5376   4736 S   0,0   0,2   0:00.06 dconf-service
+   1242 root      20   0  455512  42452   9264 S   0,0   1,7   0:24.77 packagekitd
+   1252 safwood   20   0  171704   5632   5120 S   0,0   0,2   0:00.77 gvfsd-metadata
+   1266 safwood   20   0  680888  11264   9088 S   0,0   0,5   0:00.09 evolution-addre
+   1290 safwood   20   0  323656   7168   6016 S   0,0   0,3   0:00.14 gvfsd-trash
+   1302 safwood   20   0  162680   6656   6016 S   0,0   0,3   0:00.04 at-spi2-registr
+   1304 safwood   20   0 2601900  12048  11648 S   0,0   0,5   0:00.13 gjs
+   1320 safwood   20   0    2888   1664   1664 S   0,0   0,1   0:01.42 sh
+   1322 safwood   20   0  319072   5760   5120 S   0,0   0,2   0:01.00 gsd-a11y-settin
+   1324 safwood   20   0  607140  17992  13512 S   0,0   0,7   0:00.20 gsd-color
+   1325 safwood   20   0  384116  11136   9728 S   0,0   0,5   0:00.04 gsd-datetime
+   1326 safwood   20   0  320572   6656   5760 S   0,0   0,3   0:00.14 gsd-housekeepin
+   1328 safwood   20   0  323968   7188   5632 S   0,0   0,3   0:02.52 ibus-daemon
+   1330 safwood   20   0  349260  15872  11904 S   0,0   0,6   0:00.13 gsd-keyboard
+   1331 safwood   20   0  872868  17244  14044 S   0,0   0,7   0:00.21 gsd-media-keys
+   1332 safwood   20   0  532944  18148  13668 S   0,0   0,7   0:00.19 gsd-power
+   1333 safwood   20   0  258504   7040   6400 S   0,0   0,3   0:00.02 gsd-print-notif
+   1334 safwood   20   0  466508   5504   4864 S   0,0   0,2   0:00.02 gsd-rfkill
+   1335 safwood   20   0  244940   5248   4736 S   0,0   0,2   0:00.02 gsd-screensaver
+   1338 safwood   20   0  474588   6784   5504 S   0,0   0,3   0:00.03 gsd-sharing
+   1339 safwood   20   0  394692   6272   5376 S   0,0   0,3   0:00.03 gsd-smartcard
+   1341 safwood   20   0  328000   7296   6272 S   0,0   0,3   0:00.02 gsd-sound
+   1342 safwood   20   0  423568  16132  11908 S   0,0   0,7   0:01.10 gsd-wacom
+   1403 safwood   20   0  172132   5248   4992 S   0,0   0,2   0:00.01 ibus-memconf
+   1410 safwood   20   0  356484  20144  12224 S   0,0   0,8   0:01.31 ibus-extension-
+   1438 safwood   20   0  245912   5632   5248 S   0,0   0,2   0:00.09 ibus-portal
+   1446 safwood   20   0  351008  11008   9088 S   0,0   0,4   0:00.03 gsd-printer
+   1447 safwood   20   0  232264   6400   5120 S   0,0   0,3   0:00.02 gsd-disk-utilit
+   1451 safwood   20   0  758068  26116  17156 S   0,0   1,1   0:00.25 evolution-alarm
+   1497 safwood   20   0 1166040 223868   7428 S   0,0   9,1   0:21.93 snap-store
+   1591 safwood   20   0  172132   6144   5504 S   0,0   0,2   0:00.63 ibus-engine-sim
+   1629 colord    20   0  254096   9124   6856 S   0,0   0,4   0:00.16 colord
+   1645 safwood   39  19  717888  24380  11264 S   0,0   1,0   0:02.77 tracker-miner-f
+   1672 safwood   20   0 2544716  16644  13568 S   0,0   0,7   0:00.14 gjs
+   1777 root      20   0  401880  11756   8684 S   0,0   0,5   0:00.72 fwupd
+   2605 safwood   20   0  503292  22916  15748 S   0,0   0,9   0:00.33 update-notifier
+   2820 safwood   20   0  397384   6912   6016 S   0,0   0,3   0:00.03 gvfsd-network
+   2833 safwood   20   0  325476   6912   5888 S   0,0   0,3   0:00.02 gvfsd-dnssd
+   3463 safwood   20   0  897508  19464  15044 S   0,0   0,8   0:00.28 gnome-calendar
+   3605 safwood   20   0  476276  26036  15012 S   0,0   1,1   0:00.25 seahorse
+   3657 safwood   20   0   44556   9216   6144 S   0,0   0,4   0:00.04 gnome-terminal
+   3660 safwood   20   0  392344  19576  12920 S   0,0   0,8   0:00.08 gnome-terminal.
+   3665 safwood   20   0  831316  40540  29636 S   0,0   1,6   0:07.87 gnome-terminal-
+   3683 safwood   20   0   19928   4096   2944 S   0,0   0,2   0:00.02 bash
+   3955 root      20   0 1467364  19236   8320 S   0,0   0,8   0:26.37 snapd
+   4186 root       0 -20       0      0      0 I   0,0   0,0   0:01.38 kworker/0:1H-kblockd
+   6359 safwood   20   0  226808  41280  20504 S   0,0   1,7   0:16.77 Xwayland
+   6363 safwood   20   0  537452  25680  17372 S   0,0   1,0   0:00.28 gsd-xsettings
+   6390 safwood   20   0  202792  19248  12340 S   0,0   0,8   0:00.15 ibus-x11
+   6591 safwood   20   0 1237032   9984   4096 S   0,0   0,4   0:00.12 snap
+   7106 safwood   20   0 1123,3g 152356 108596 S   0,0   6,2   0:29.78 code
+   7111 safwood   20   0   32,2g  33024  32384 S   0,0   1,3   0:00.02 code
+   7112 safwood   20   0   32,2g  35712  32896 S   0,0   1,5   0:00.02 code
+   7114 safwood   20   0   32,2g   6428   3584 S   0,0   0,3   0:00.01 code
+   7128 safwood   20   0   32,0g  12624  10752 S   0,0   0,5   0:00.10 chrome_crashpad
+   7143 safwood   20   0   32,5g  58436  53612 S   0,0   2,4   0:22.25 code
+   7152 safwood   20   0   32,3g  49568  46904 S   0,0   2,0   0:01.68 code
+   7165 safwood   20   0 1132,9g 220744  84440 S   0,0   9,0   2:11.64 code
+   7208 safwood   20   0 1122,8g  77920  59640 S   0,0   3,2   0:12.31 code
+   7268 safwood   20   0 1122,8g  83188  59264 S   0,0   3,4   0:12.16 code
+   7674 safwood   20   0    8096   5760   4608 S   0,0   0,2   0:00.10 ssh-agent
+   7722 safwood   20   0  246400   8960   6016 S   0,0   0,4   0:01.45 fish
+   8284 safwood   20   0 1122,8g 133744  67912 S   0,0   5,4   0:07.98 code
+   8340 safwood   20   0   19956   5504   3840 S   0,0   0,2   0:00.04 bash
+   9059 safwood   20   0 1122,7g  72376  57856 S   0,0   2,9   0:00.73 code
+   9180 safwood   20   0   17408   2688   2432 T   0,0   0,1   0:00.00 less
+   9414 root      20   0       0      0      0 I   0,0   0,0   0:01.54 kworker/1:1-events
+   9473 root      20   0       0      0      0 I   0,0   0,0   0:00.57 kworker/0:3-events
+   9709 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0
+   9747 safwood   20   0 2862832  59484  43268 S   0,0   2,4   0:00.82 gjs
+   9899 root      20   0       0      0      0 I   0,0   0,0   0:00.58 kworker/u6:4-events_unbound
+  10115 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0-ata_sff
+  10116 root      20   0       0      0      0 I   0,0   0,0   0:00.12 kworker/2:0-ata_sff
+  10159 safwood   20   0 1006524  72720  49588 S   0,0   3,0   0:02.26 nautilus
+  10167 safwood   20   0  484888  13568  11392 S   0,0   0,6   0:00.09 xdg-desktop-por
+  10171 safwood   20   0  670940  28180  19952 S   0,0   1,1   0:00.18 xdg-desktop-por
+  10183 safwood   20   0  352580  24580  17540 S   0,0   1,0   0:00.10 xdg-desktop-por
+  10241 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/2:3-events
+  10391 root      20   0       0      0      0 I   0,0   0,0   0:00.03 kworker/u6:0-events_power_efficient
+  10431 root      20   0       0      0      0 I   0,0   0,0   0:00.06 kworker/u6:1-events_power_efficient
+  10454 root      20   0       0      0      0 I   0,0   0,0   0:00.13 kworker/1:2-events
+  10546 safwood   20   0 1130,8g  86616  75392 S   0,0   3,5   0:00.25 code
+  10626 safwood   20   0   17040   2304   2304 S   0,0   0,1   0:00.00 script
+  10627 safwood   20   0   19928   5376   3712 S   0,0   0,2   0:00.01 bash
+  10636 safwood   39  19  555624  32300  25772 S   0,0   1,3   0:00.06 tracker-extract
+  10650 safwood   20   0   21732   4096   3328 R   0,0   0,2   0:00.00 top
+
+top - 23:20:26 up  1:54,  1 user,  load average: 0,61, 0,28, 0,16
+Tasks: 216 total,   2 running, 213 sleeping,   1 stopped,   0 zombie
+%Cpu(s):  0,8 us,  0,0 sy,  0,2 ni, 98,6 id,  0,2 wa,  0,0 hi,  0,1 si,  0,0 st
+MiB Mem :   2400,1 total,     89,5 free,   1394,9 used,    915,7 buff/cache
+MiB Swap:   2140,0 total,   1604,8 free,    535,2 used.    775,4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    981 safwood   20   0 5262968 340868  83380 S   6,3  13,9   9:17.63 gnome-shell
+   1645 safwood   39  19  717888  25104  11264 S   0,7   1,0   0:02.79 tracker-miner-f
+    118 root       0 -20       0      0      0 I   0,3   0,0   0:01.43 kworker/2:1H-kblockd
+    154 root      20   0       0      0      0 S   0,3   0,0   0:00.96 jbd2/sda3-8
+    467 systemd+  20   0   14824   4480   3712 S   0,3   0,2   0:05.20 systemd-oomd
+    846 safwood   20   0   16336  10624   3584 S   0,3   0,4   0:01.99 dbus-daemon
+   1328 safwood   20   0  323968   7188   5632 S   0,3   0,3   0:02.53 ibus-daemon
+   3665 safwood   20   0  831316  40540  29636 R   0,3   1,6   0:07.88 gnome-terminal-
+   7268 safwood   20   0 1122,8g  83188  59264 S   0,3   3,4   0:12.17 code
+      1 root      20   0  168056   9656   5432 S   0,0   0,4   0:33.33 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.02 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_flushwq
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns
+     10 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mm_percpu_wq
+     11 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_kthread
+     12 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_rude_kthread
+     13 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_trace_kthread
+     14 root      20   0       0      0      0 S   0,0   0,0   0:00.29 ksoftirqd/0
+     15 root      20   0       0      0      0 I   0,0   0,0   0:03.62 rcu_preempt
+     16 root      rt   0       0      0      0 S   0,0   0,0   0:00.07 migration/0
+     17 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/0
+     19 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0
+     20 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/1
+     21 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/1
+     22 root      rt   0       0      0      0 S   0,0   0,0   0:00.17 migration/1
+     23 root      20   0       0      0      0 S   0,0   0,0   0:00.42 ksoftirqd/1
+     25 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0H-events_highpri
+     26 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/2
+     27 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/2
+     28 root      rt   0       0      0      0 S   0,0   0,0   0:00.17 migration/2
+     29 root      20   0       0      0      0 S   0,0   0,0   0:00.14 ksoftirqd/2
+     31 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/2:0H-events_highpri
+     32 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kdevtmpfs
+     33 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 inet_frag_wq
+     34 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kauditd
+     35 root      20   0       0      0      0 S   0,0   0,0   0:00.00 khungtaskd
+     37 root      20   0       0      0      0 S   0,0   0,0   0:00.00 oom_reaper
+     39 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 writeback
+     40 root      20   0       0      0      0 S   0,0   0,0   0:00.97 kcompactd0
+     41 root      25   5       0      0      0 S   0,0   0,0   0:00.00 ksmd
+     43 root      39  19       0      0      0 S   0,0   0,0   0:00.00 khugepaged
+     44 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kintegrityd
+     45 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kblockd
+     46 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 blkcg_punt_bio
+     47 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 tpm_dev_wq
+     48 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ata_sff
+     49 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 md
+     50 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 edac-poller
+     51 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 devfreq_wq
+     52 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 watchdogd
+     54 root       0 -20       0      0      0 I   0,0   0,0   0:01.59 kworker/1:1H-kblockd
+     55 root      20   0       0      0      0 S   0,0   0,0   0:05.92 kswapd0
+     56 root      20   0       0      0      0 S   0,0   0,0   0:00.00 ecryptfs-kthread
+     57 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kthrotld
+     58 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 acpi_thermal_pm
+     59 root      20   0       0      0      0 S   0,0   0,0   0:00.00 xenbus_probe
+     60 root      20   0       0      0      0 S   0,0   0,0   0:00.02 scsi_eh_0
+     61 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_0
+     62 root      20   0       0      0      0 S   0,0   0,0   0:00.03 scsi_eh_1
+     63 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_1
+     67 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mld
+     68 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ipv6_addrconf
+     77 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kstrp
+     79 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 zswap-shrink
+     80 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u7:0
+     84 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 charger_manager
+    128 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_2
+    129 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_2
+    155 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ext4-rsv-conver
+    194 root      19  -1   48676  14464  13184 S   0,0   0,6   0:00.78 systemd-journal
+    235 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/18-vmwgfx
+    250 root      20   0   27676   5492   3060 S   0,0   0,2   0:00.85 systemd-udevd
+    281 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:2H-kblockd
+    474 systemd+  20   0   25792   7800   5248 S   0,0   0,3   0:00.29 systemd-resolve
+    476 systemd+  20   0   89376   4864   4096 S   0,0   0,2   0:00.10 systemd-timesyn
+    569 root      20   0  248628   6320   5552 S   0,0   0,3   0:00.27 accounts-daemon
+    570 root      20   0    2812   1920   1792 S   0,0   0,1   0:00.17 acpid
+    573 avahi     20   0    7628   3584   3200 S   0,0   0,1   0:00.09 avahi-daemon
+    574 root      20   0   18148   2688   2432 S   0,0   0,1   0:00.01 cron
+    575 message+  20   0   11120   5504   3328 S   0,0   0,2   0:02.07 dbus-daemon
+    576 root      20   0  269632  10316   8396 S   0,0   0,4   0:00.51 NetworkManager
+    583 root      20   0   82696   3584   3328 S   0,0   0,1   0:00.18 irqbalance
+    586 root      20   0   49688  10368   6400 S   0,0   0,4   0:00.17 networkd-dispat
+    587 root      20   0  251724   9704   6228 S   0,0   0,4   0:00.59 polkitd
+    588 root      20   0  248716   6400   5632 S   0,0   0,3   0:00.02 power-profiles-
+    589 syslog    20   0  222424   4864   3584 S   0,0   0,2   0:00.18 rsyslogd
+    596 root      20   0  245256   5632   4992 S   0,0   0,2   0:00.06 switcheroo-cont
+    597 root      20   0   23632   5616   4480 S   0,0   0,2   0:00.21 systemd-logind
+    598 root      20   0  393052   8508   6460 S   0,0   0,3   0:00.56 udisksd
+    599 root      20   0   16492   4096   3328 S   0,0   0,2   0:00.05 wpa_supplicant
+    601 avahi     20   0    7440   1432   1152 S   0,0   0,1   0:00.00 avahi-daemon
+    679 root      20   0  317960   7652   6116 S   0,0   0,3   0:02.02 ModemManager
+    681 root      20   0   81664   7808   6656 S   0,0   0,3   0:00.07 cupsd
+    686 lp        20   0   16284   4096   3328 S   0,0   0,2   0:00.01 dbus
+    689 root      20   0  126796  11264   7424 S   0,0   0,5   0:00.13 unattended-upgr
+    702 root      20   0   15424   4480   3328 S   0,0   0,2   0:00.00 sshd
+    729 root      20   0  249872   6912   6272 S   0,0   0,3   0:00.04 gdm3
+    746 root      20   0  172616   7168   6144 S   0,0   0,3   0:00.05 cups-browsed
+    747 root      20   0  326572   7936   6400 S   0,0   0,3   0:00.06 gdm-session-wor
+    758 kernoops  20   0   13084   2188   1920 S   0,0   0,1   0:00.00 kerneloops
+    760 kernoops  20   0   13084   2324   1920 S   0,0   0,1   0:00.00 kerneloops
+    812 safwood   20   0   24612  13008   5248 S   0,0   0,5   0:06.96 systemd
+    813 safwood   20   0  104280   2740   1536 S   0,0   0,1   0:00.00 (sd-pam)
+    819 safwood    9 -11   48224   4992   3968 S   0,0   0,2   0:00.08 pipewire
+    820 safwood   20   0   32112   4736   3712 S   0,0   0,2   0:00.08 pipewire-media-
+    821 safwood    9 -11 1955568  16260  12036 S   0,0   0,7   0:02.51 pulseaudio
+    830 rtkit     21   1  154000   2816   2688 S   0,0   0,1   0:00.12 rtkit-daemon
+    837 safwood   20   0  544488   7456   6400 S   0,0   0,3   0:00.24 gnome-keyring-d
+    844 safwood   20   0  171040   4992   4736 S   0,0   0,2   0:00.02 gdm-wayland-ses
+    851 safwood   20   0  231692  11008   9728 S   0,0   0,4   0:00.11 gnome-session-b
+    864 safwood   20   0  249412   6016   5376 S   0,0   0,2   0:00.11 gvfsd
+    885 safwood   20   0  380888   5376   5120 S   0,0   0,2   0:00.02 gvfsd-fuse
+    933 safwood   20   0  100560   4480   4096 S   0,0   0,2   0:00.00 gnome-session-c
+    951 safwood   20   0  667180  11904  10368 S   0,0   0,5   0:01.77 gnome-session-b
+    977 safwood   20   0  309616   6272   5888 S   0,0   0,3   0:00.03 at-spi-bus-laun
+    995 safwood   20   0    8560   3840   3328 S   0,0   0,2   0:00.07 dbus-daemon
+   1010 safwood   20   0  545556   6144   5504 S   0,0   0,2   0:00.15 xdg-document-po
+   1013 safwood   20   0  244800   5248   4864 S   0,0   0,2   0:00.02 xdg-permission-
+   1019 root      20   0    2792   1792   1792 S   0,0   0,1   0:00.00 fusermount3
+   1120 safwood   20   0  582800   9344   8192 S   0,0   0,4   0:00.15 gnome-shell-cal
+   1126 safwood   20   0  949800  15360  12416 S   0,0   0,6   0:00.15 evolution-sourc
+   1129 root      20   0  250996   6656   5504 S   0,0   0,3   0:01.06 upowerd
+   1140 safwood   20   0  324572   8064   6400 S   0,0   0,3   0:00.18 gvfs-udisks2-vo
+   1142 safwood   20   0  582844  11392  10752 S   0,0   0,5   0:00.22 goa-daemon
+   1150 safwood   20   0  245112   5632   5120 S   0,0   0,2   0:00.05 gvfs-mtp-volume
+   1153 safwood   20   0  849152  14848  12160 S   0,0   0,6   0:01.79 evolution-calen
+   1164 safwood   20   0  347052   9088   8832 S   0,0   0,4   0:00.10 goa-identity-se
+   1173 safwood   20   0  246192   5888   5248 S   0,0   0,2   0:00.06 gvfs-gphoto2-vo
+   1185 safwood   20   0  323852   6272   5120 S   0,0   0,3   0:00.40 gvfs-afc-volume
+   1204 safwood   20   0  245284   5504   4736 S   0,0   0,2   0:00.04 gvfs-goa-volume
+   1239 safwood   20   0  157076   5376   4736 S   0,0   0,2   0:00.06 dconf-service
+   1242 root      20   0  455512  42452   9264 S   0,0   1,7   0:24.77 packagekitd
+   1252 safwood   20   0  171704   5632   5120 S   0,0   0,2   0:00.77 gvfsd-metadata
+   1266 safwood   20   0  680888  11264   9088 S   0,0   0,5   0:00.09 evolution-addre
+   1290 safwood   20   0  323656   7168   6016 S   0,0   0,3   0:00.14 gvfsd-trash
+   1302 safwood   20   0  162680   6656   6016 S   0,0   0,3   0:00.04 at-spi2-registr
+   1304 safwood   20   0 2601900  12048  11648 S   0,0   0,5   0:00.13 gjs
+   1320 safwood   20   0    2888   1664   1664 S   0,0   0,1   0:01.42 sh
+   1322 safwood   20   0  319072   5760   5120 S   0,0   0,2   0:01.00 gsd-a11y-settin
+   1324 safwood   20   0  607140  17992  13512 S   0,0   0,7   0:00.20 gsd-color
+   1325 safwood   20   0  384116  11136   9728 S   0,0   0,5   0:00.04 gsd-datetime
+   1326 safwood   20   0  320572   6656   5760 S   0,0   0,3   0:00.14 gsd-housekeepin
+   1330 safwood   20   0  349260  15872  11904 S   0,0   0,6   0:00.13 gsd-keyboard
+   1331 safwood   20   0  872868  17244  14044 S   0,0   0,7   0:00.21 gsd-media-keys
+   1332 safwood   20   0  532944  18148  13668 S   0,0   0,7   0:00.19 gsd-power
+   1333 safwood   20   0  258504   7040   6400 S   0,0   0,3   0:00.02 gsd-print-notif
+   1334 safwood   20   0  466508   5504   4864 S   0,0   0,2   0:00.02 gsd-rfkill
+   1335 safwood   20   0  244940   5248   4736 S   0,0   0,2   0:00.02 gsd-screensaver
+   1338 safwood   20   0  474588   6784   5504 S   0,0   0,3   0:00.03 gsd-sharing
+   1339 safwood   20   0  394692   6272   5376 S   0,0   0,3   0:00.03 gsd-smartcard
+   1341 safwood   20   0  328000   7296   6272 S   0,0   0,3   0:00.02 gsd-sound
+   1342 safwood   20   0  423568  16132  11908 S   0,0   0,7   0:01.10 gsd-wacom
+   1403 safwood   20   0  172132   5248   4992 S   0,0   0,2   0:00.01 ibus-memconf
+   1410 safwood   20   0  356484  20144  12224 S   0,0   0,8   0:01.31 ibus-extension-
+   1438 safwood   20   0  245912   5632   5248 S   0,0   0,2   0:00.09 ibus-portal
+   1446 safwood   20   0  351008  11008   9088 S   0,0   0,4   0:00.03 gsd-printer
+   1447 safwood   20   0  232264   6400   5120 S   0,0   0,3   0:00.02 gsd-disk-utilit
+   1451 safwood   20   0  758068  26116  17156 S   0,0   1,1   0:00.25 evolution-alarm
+   1497 safwood   20   0 1166040 223868   7428 S   0,0   9,1   0:21.93 snap-store
+   1591 safwood   20   0  172132   6144   5504 S   0,0   0,2   0:00.63 ibus-engine-sim
+   1629 colord    20   0  254096   9124   6856 S   0,0   0,4   0:00.16 colord
+   1672 safwood   20   0 2544716  16644  13568 S   0,0   0,7   0:00.14 gjs
+   1777 root      20   0  401880  11756   8684 S   0,0   0,5   0:00.72 fwupd
+   2605 safwood   20   0  503292  22916  15748 S   0,0   0,9   0:00.33 update-notifier
+   2820 safwood   20   0  397384   6912   6016 S   0,0   0,3   0:00.03 gvfsd-network
+   2833 safwood   20   0  325476   6912   5888 S   0,0   0,3   0:00.02 gvfsd-dnssd
+   3463 safwood   20   0  897508  19464  15044 S   0,0   0,8   0:00.28 gnome-calendar
+   3605 safwood   20   0  476276  26036  15012 S   0,0   1,1   0:00.25 seahorse
+   3657 safwood   20   0   44556   9216   6144 S   0,0   0,4   0:00.04 gnome-terminal
+   3660 safwood   20   0  392344  19576  12920 S   0,0   0,8   0:00.08 gnome-terminal.
+   3683 safwood   20   0   19928   4096   2944 S   0,0   0,2   0:00.02 bash
+   3955 root      20   0 1467364  19236   8320 S   0,0   0,8   0:26.37 snapd
+   4186 root       0 -20       0      0      0 I   0,0   0,0   0:01.38 kworker/0:1H-kblockd
+   6359 safwood   20   0  226808  41280  20504 S   0,0   1,7   0:16.77 Xwayland
+   6363 safwood   20   0  537452  25680  17372 S   0,0   1,0   0:00.28 gsd-xsettings
+   6390 safwood   20   0  202792  19248  12340 S   0,0   0,8   0:00.15 ibus-x11
+   6591 safwood   20   0 1237032   9984   4096 S   0,0   0,4   0:00.12 snap
+   7106 safwood   20   0 1123,3g 152340 108596 S   0,0   6,2   0:29.78 code
+   7111 safwood   20   0   32,2g  33024  32384 S   0,0   1,3   0:00.02 code
+   7112 safwood   20   0   32,2g  35712  32896 S   0,0   1,5   0:00.02 code
+   7114 safwood   20   0   32,2g   6428   3584 S   0,0   0,3   0:00.01 code
+   7128 safwood   20   0   32,0g  12624  10752 S   0,0   0,5   0:00.10 chrome_crashpad
+   7143 safwood   20   0   32,5g  58436  53612 S   0,0   2,4   0:22.25 code
+   7152 safwood   20   0   32,3g  49568  46904 S   0,0   2,0   0:01.68 code
+   7165 safwood   20   0 1132,9g 220744  84440 S   0,0   9,0   2:11.64 code
+   7208 safwood   20   0 1122,8g  77920  59640 S   0,0   3,2   0:12.31 code
+   7674 safwood   20   0    8096   5760   4608 S   0,0   0,2   0:00.10 ssh-agent
+   7722 safwood   20   0  246400   8960   6016 S   0,0   0,4   0:01.45 fish
+   8282 safwood   20   0 1122,8g  79232  64128 S   0,0   3,2   0:01.53 code
+   8284 safwood   20   0 1122,8g 133744  67912 S   0,0   5,4   0:07.98 code
+   8340 safwood   20   0   19956   5504   3840 S   0,0   0,2   0:00.04 bash
+   9059 safwood   20   0 1122,7g  72376  57856 S   0,0   2,9   0:00.73 code
+   9180 safwood   20   0   17408   2688   2432 T   0,0   0,1   0:00.00 less
+   9414 root      20   0       0      0      0 I   0,0   0,0   0:01.54 kworker/1:1-events
+   9473 root      20   0       0      0      0 I   0,0   0,0   0:00.57 kworker/0:3-events
+   9709 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0
+   9747 safwood   20   0 2862832  59484  43268 S   0,0   2,4   0:00.82 gjs
+   9778 root      20   0       0      0      0 I   0,0   0,0   0:00.59 kworker/u6:2-events_unbound
+   9899 root      20   0       0      0      0 I   0,0   0,0   0:00.58 kworker/u6:4-events_unbound
+  10115 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0-ata_sff
+  10116 root      20   0       0      0      0 I   0,0   0,0   0:00.12 kworker/2:0-events
+  10159 safwood   20   0 1006524  72720  49588 S   0,0   3,0   0:02.26 nautilus
+  10167 safwood   20   0  484888  13568  11392 S   0,0   0,6   0:00.09 xdg-desktop-por
+  10171 safwood   20   0  670940  28180  19952 S   0,0   1,1   0:00.18 xdg-desktop-por
+  10183 safwood   20   0  352580  24580  17540 S   0,0   1,0   0:00.10 xdg-desktop-por
+  10241 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/2:3-events
+  10391 root      20   0       0      0      0 I   0,0   0,0   0:00.03 kworker/u6:0-events_power_efficient
+  10431 root      20   0       0      0      0 I   0,0   0,0   0:00.06 kworker/u6:1-events_power_efficient
+  10454 root      20   0       0      0      0 I   0,0   0,0   0:00.13 kworker/1:2-events
+  10546 safwood   20   0 1130,8g  86616  75392 S   0,0   3,5   0:00.25 code
+  10626 safwood   20   0   17040   2304   2304 S   0,0   0,1   0:00.00 script
+  10627 safwood   20   0   19928   5376   3712 S   0,0   0,2   0:00.01 bash
+  10636 safwood   39  19  555632  32256  25772 S   0,0   1,3   0:00.06 tracker-extract
+  10650 safwood   20   0   21732   4096   3328 R   0,0   0,2   0:00.00 top
+
+top - 23:20:29 up  1:54,  1 user,  load average: 0,56, 0,28, 0,15
+Tasks: 216 total,   1 running, 214 sleeping,   1 stopped,   0 zombie
+%Cpu(s):  0,9 us,  0,2 sy,  0,0 ni, 98,7 id,  0,1 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   2400,1 total,     89,5 free,   1394,9 used,    915,7 buff/cache
+MiB Swap:   2140,0 total,   1604,8 free,    535,2 used.    775,4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    981 safwood   20   0 5262968 340868  83380 S   5,3  13,9   9:17.79 gnome-shell
+   1645 safwood   39  19  717888  25872  11264 S   1,0   1,1   0:02.82 tracker-miner-f
+   3665 safwood   20   0  831316  40540  29636 S   0,3   1,6   0:07.89 gnome-terminal-
+   7268 safwood   20   0 1122,8g  83188  59264 S   0,3   3,4   0:12.18 code
+  10159 safwood   20   0 1006524  72720  49588 S   0,3   3,0   0:02.27 nautilus
+  10454 root      20   0       0      0      0 I   0,3   0,0   0:00.14 kworker/1:2-events
+  10636 safwood   39  19  555636  32332  25772 S   0,3   1,3   0:00.07 tracker-extract
+  10650 safwood   20   0   21732   4096   3328 R   0,3   0,2   0:00.01 top
+      1 root      20   0  168056   9656   5432 S   0,0   0,4   0:33.33 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.02 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_flushwq
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns
+     10 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mm_percpu_wq
+     11 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_kthread
+     12 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_rude_kthread
+     13 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_trace_kthread
+     14 root      20   0       0      0      0 S   0,0   0,0   0:00.29 ksoftirqd/0
+     15 root      20   0       0      0      0 I   0,0   0,0   0:03.62 rcu_preempt
+     16 root      rt   0       0      0      0 S   0,0   0,0   0:00.07 migration/0
+     17 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/0
+     19 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0
+     20 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/1
+     21 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/1
+     22 root      rt   0       0      0      0 S   0,0   0,0   0:00.17 migration/1
+     23 root      20   0       0      0      0 S   0,0   0,0   0:00.42 ksoftirqd/1
+     25 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0H-events_highpri
+     26 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/2
+     27 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/2
+     28 root      rt   0       0      0      0 S   0,0   0,0   0:00.17 migration/2
+     29 root      20   0       0      0      0 S   0,0   0,0   0:00.14 ksoftirqd/2
+     31 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/2:0H-events_highpri
+     32 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kdevtmpfs
+     33 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 inet_frag_wq
+     34 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kauditd
+     35 root      20   0       0      0      0 S   0,0   0,0   0:00.00 khungtaskd
+     37 root      20   0       0      0      0 S   0,0   0,0   0:00.00 oom_reaper
+     39 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 writeback
+     40 root      20   0       0      0      0 S   0,0   0,0   0:00.97 kcompactd0
+     41 root      25   5       0      0      0 S   0,0   0,0   0:00.00 ksmd
+     43 root      39  19       0      0      0 S   0,0   0,0   0:00.00 khugepaged
+     44 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kintegrityd
+     45 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kblockd
+     46 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 blkcg_punt_bio
+     47 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 tpm_dev_wq
+     48 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ata_sff
+     49 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 md
+     50 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 edac-poller
+     51 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 devfreq_wq
+     52 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 watchdogd
+     54 root       0 -20       0      0      0 I   0,0   0,0   0:01.59 kworker/1:1H-kblockd
+     55 root      20   0       0      0      0 S   0,0   0,0   0:05.92 kswapd0
+     56 root      20   0       0      0      0 S   0,0   0,0   0:00.00 ecryptfs-kthread
+     57 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kthrotld
+     58 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 acpi_thermal_pm
+     59 root      20   0       0      0      0 S   0,0   0,0   0:00.00 xenbus_probe
+     60 root      20   0       0      0      0 S   0,0   0,0   0:00.02 scsi_eh_0
+     61 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_0
+     62 root      20   0       0      0      0 S   0,0   0,0   0:00.03 scsi_eh_1
+     63 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_1
+     67 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mld
+     68 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ipv6_addrconf
+     77 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kstrp
+     79 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 zswap-shrink
+     80 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u7:0
+     84 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 charger_manager
+    118 root       0 -20       0      0      0 I   0,0   0,0   0:01.43 kworker/2:1H-kblockd
+    128 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_2
+    129 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_2
+    154 root      20   0       0      0      0 S   0,0   0,0   0:00.96 jbd2/sda3-8
+    155 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ext4-rsv-conver
+    194 root      19  -1   48676  14464  13184 S   0,0   0,6   0:00.78 systemd-journal
+    235 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/18-vmwgfx
+    250 root      20   0   27676   5492   3060 S   0,0   0,2   0:00.85 systemd-udevd
+    281 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:2H-kblockd
+    467 systemd+  20   0   14824   4480   3712 S   0,0   0,2   0:05.20 systemd-oomd
+    474 systemd+  20   0   25792   7800   5248 S   0,0   0,3   0:00.29 systemd-resolve
+    476 systemd+  20   0   89376   4864   4096 S   0,0   0,2   0:00.10 systemd-timesyn
+    569 root      20   0  248628   6320   5552 S   0,0   0,3   0:00.27 accounts-daemon
+    570 root      20   0    2812   1920   1792 S   0,0   0,1   0:00.17 acpid
+    573 avahi     20   0    7628   3584   3200 S   0,0   0,1   0:00.09 avahi-daemon
+    574 root      20   0   18148   2688   2432 S   0,0   0,1   0:00.01 cron
+    575 message+  20   0   11120   5504   3328 S   0,0   0,2   0:02.07 dbus-daemon
+    576 root      20   0  269632  10316   8396 S   0,0   0,4   0:00.51 NetworkManager
+    583 root      20   0   82696   3584   3328 S   0,0   0,1   0:00.18 irqbalance
+    586 root      20   0   49688  10368   6400 S   0,0   0,4   0:00.17 networkd-dispat
+    587 root      20   0  251724   9704   6228 S   0,0   0,4   0:00.59 polkitd
+    588 root      20   0  248716   6400   5632 S   0,0   0,3   0:00.02 power-profiles-
+    589 syslog    20   0  222424   4864   3584 S   0,0   0,2   0:00.18 rsyslogd
+    596 root      20   0  245256   5632   4992 S   0,0   0,2   0:00.06 switcheroo-cont
+    597 root      20   0   23632   5616   4480 S   0,0   0,2   0:00.21 systemd-logind
+    598 root      20   0  393052   8508   6460 S   0,0   0,3   0:00.56 udisksd
+    599 root      20   0   16492   4096   3328 S   0,0   0,2   0:00.05 wpa_supplicant
+    601 avahi     20   0    7440   1432   1152 S   0,0   0,1   0:00.00 avahi-daemon
+    679 root      20   0  317960   7652   6116 S   0,0   0,3   0:02.02 ModemManager
+    681 root      20   0   81664   7808   6656 S   0,0   0,3   0:00.07 cupsd
+    686 lp        20   0   16284   4096   3328 S   0,0   0,2   0:00.01 dbus
+    689 root      20   0  126796  11264   7424 S   0,0   0,5   0:00.13 unattended-upgr
+    702 root      20   0   15424   4480   3328 S   0,0   0,2   0:00.00 sshd
+    729 root      20   0  249872   6912   6272 S   0,0   0,3   0:00.04 gdm3
+    746 root      20   0  172616   7168   6144 S   0,0   0,3   0:00.05 cups-browsed
+    747 root      20   0  326572   7936   6400 S   0,0   0,3   0:00.06 gdm-session-wor
+    758 kernoops  20   0   13084   2188   1920 S   0,0   0,1   0:00.00 kerneloops
+    760 kernoops  20   0   13084   2324   1920 S   0,0   0,1   0:00.00 kerneloops
+    812 safwood   20   0   24612  13008   5248 S   0,0   0,5   0:06.96 systemd
+    813 safwood   20   0  104280   2740   1536 S   0,0   0,1   0:00.00 (sd-pam)
+    819 safwood    9 -11   48224   4992   3968 S   0,0   0,2   0:00.08 pipewire
+    820 safwood   20   0   32112   4736   3712 S   0,0   0,2   0:00.08 pipewire-media-
+    821 safwood    9 -11 1955568  16260  12036 S   0,0   0,7   0:02.51 pulseaudio
+    830 rtkit     21   1  154000   2816   2688 S   0,0   0,1   0:00.12 rtkit-daemon
+    837 safwood   20   0  544488   7456   6400 S   0,0   0,3   0:00.24 gnome-keyring-d
+    844 safwood   20   0  171040   4992   4736 S   0,0   0,2   0:00.02 gdm-wayland-ses
+    846 safwood   20   0   16336  10624   3584 S   0,0   0,4   0:01.99 dbus-daemon
+    851 safwood   20   0  231692  11008   9728 S   0,0   0,4   0:00.11 gnome-session-b
+    864 safwood   20   0  249412   6016   5376 S   0,0   0,2   0:00.11 gvfsd
+    885 safwood   20   0  380888   5376   5120 S   0,0   0,2   0:00.02 gvfsd-fuse
+    933 safwood   20   0  100560   4480   4096 S   0,0   0,2   0:00.00 gnome-session-c
+    951 safwood   20   0  667180  11904  10368 S   0,0   0,5   0:01.77 gnome-session-b
+    977 safwood   20   0  309616   6272   5888 S   0,0   0,3   0:00.03 at-spi-bus-laun
+    995 safwood   20   0    8560   3840   3328 S   0,0   0,2   0:00.07 dbus-daemon
+   1010 safwood   20   0  545556   6144   5504 S   0,0   0,2   0:00.15 xdg-document-po
+   1013 safwood   20   0  244800   5248   4864 S   0,0   0,2   0:00.02 xdg-permission-
+   1019 root      20   0    2792   1792   1792 S   0,0   0,1   0:00.00 fusermount3
+   1120 safwood   20   0  582800   9344   8192 S   0,0   0,4   0:00.15 gnome-shell-cal
+   1126 safwood   20   0  949800  15360  12416 S   0,0   0,6   0:00.15 evolution-sourc
+   1129 root      20   0  250996   6656   5504 S   0,0   0,3   0:01.06 upowerd
+   1140 safwood   20   0  324572   8064   6400 S   0,0   0,3   0:00.18 gvfs-udisks2-vo
+   1142 safwood   20   0  582844  11392  10752 S   0,0   0,5   0:00.22 goa-daemon
+   1150 safwood   20   0  245112   5632   5120 S   0,0   0,2   0:00.05 gvfs-mtp-volume
+   1153 safwood   20   0  849152  14848  12160 S   0,0   0,6   0:01.79 evolution-calen
+   1164 safwood   20   0  347052   9088   8832 S   0,0   0,4   0:00.10 goa-identity-se
+   1173 safwood   20   0  246192   5888   5248 S   0,0   0,2   0:00.06 gvfs-gphoto2-vo
+   1185 safwood   20   0  323852   6272   5120 S   0,0   0,3   0:00.40 gvfs-afc-volume
+   1204 safwood   20   0  245284   5504   4736 S   0,0   0,2   0:00.04 gvfs-goa-volume
+   1239 safwood   20   0  157076   5376   4736 S   0,0   0,2   0:00.06 dconf-service
+   1242 root      20   0  455512  42452   9264 S   0,0   1,7   0:24.77 packagekitd
+   1252 safwood   20   0  171704   5632   5120 S   0,0   0,2   0:00.77 gvfsd-metadata
+   1266 safwood   20   0  680888  11264   9088 S   0,0   0,5   0:00.09 evolution-addre
+   1290 safwood   20   0  323656   7168   6016 S   0,0   0,3   0:00.14 gvfsd-trash
+   1302 safwood   20   0  162680   6656   6016 S   0,0   0,3   0:00.04 at-spi2-registr
+   1304 safwood   20   0 2601900  12048  11648 S   0,0   0,5   0:00.13 gjs
+   1320 safwood   20   0    2888   1664   1664 S   0,0   0,1   0:01.42 sh
+   1322 safwood   20   0  319072   5760   5120 S   0,0   0,2   0:01.00 gsd-a11y-settin
+   1324 safwood   20   0  607140  17992  13512 S   0,0   0,7   0:00.20 gsd-color
+   1325 safwood   20   0  384116  11136   9728 S   0,0   0,5   0:00.04 gsd-datetime
+   1326 safwood   20   0  320572   6656   5760 S   0,0   0,3   0:00.14 gsd-housekeepin
+   1328 safwood   20   0  323968   7188   5632 S   0,0   0,3   0:02.53 ibus-daemon
+   1330 safwood   20   0  349260  15872  11904 S   0,0   0,6   0:00.13 gsd-keyboard
+   1331 safwood   20   0  872868  17244  14044 S   0,0   0,7   0:00.21 gsd-media-keys
+   1332 safwood   20   0  532944  18148  13668 S   0,0   0,7   0:00.19 gsd-power
+   1333 safwood   20   0  258504   7040   6400 S   0,0   0,3   0:00.02 gsd-print-notif
+   1334 safwood   20   0  466508   5504   4864 S   0,0   0,2   0:00.02 gsd-rfkill
+   1335 safwood   20   0  244940   5248   4736 S   0,0   0,2   0:00.02 gsd-screensaver
+   1338 safwood   20   0  474588   6784   5504 S   0,0   0,3   0:00.03 gsd-sharing
+   1339 safwood   20   0  394692   6272   5376 S   0,0   0,3   0:00.03 gsd-smartcard
+   1341 safwood   20   0  328000   7296   6272 S   0,0   0,3   0:00.02 gsd-sound
+   1342 safwood   20   0  423568  16132  11908 S   0,0   0,7   0:01.10 gsd-wacom
+   1403 safwood   20   0  172132   5248   4992 S   0,0   0,2   0:00.01 ibus-memconf
+   1410 safwood   20   0  356484  20144  12224 S   0,0   0,8   0:01.31 ibus-extension-
+   1438 safwood   20   0  245912   5632   5248 S   0,0   0,2   0:00.09 ibus-portal
+   1446 safwood   20   0  351008  11008   9088 S   0,0   0,4   0:00.03 gsd-printer
+   1447 safwood   20   0  232264   6400   5120 S   0,0   0,3   0:00.02 gsd-disk-utilit
+   1451 safwood   20   0  758068  26116  17156 S   0,0   1,1   0:00.25 evolution-alarm
+   1497 safwood   20   0 1166040 223868   7428 S   0,0   9,1   0:21.93 snap-store
+   1591 safwood   20   0  172132   6144   5504 S   0,0   0,2   0:00.63 ibus-engine-sim
+   1629 colord    20   0  254096   9124   6856 S   0,0   0,4   0:00.16 colord
+   1672 safwood   20   0 2544716  16644  13568 S   0,0   0,7   0:00.14 gjs
+   1777 root      20   0  401880  11756   8684 S   0,0   0,5   0:00.72 fwupd
+   2605 safwood   20   0  503292  22916  15748 S   0,0   0,9   0:00.33 update-notifier
+   2820 safwood   20   0  397384   6912   6016 S   0,0   0,3   0:00.03 gvfsd-network
+   2833 safwood   20   0  325476   6912   5888 S   0,0   0,3   0:00.02 gvfsd-dnssd
+   3463 safwood   20   0  897508  19464  15044 S   0,0   0,8   0:00.28 gnome-calendar
+   3605 safwood   20   0  476276  26036  15012 S   0,0   1,1   0:00.25 seahorse
+   3657 safwood   20   0   44556   9216   6144 S   0,0   0,4   0:00.04 gnome-terminal
+   3660 safwood   20   0  392344  19576  12920 S   0,0   0,8   0:00.08 gnome-terminal.
+   3683 safwood   20   0   19928   4096   2944 S   0,0   0,2   0:00.02 bash
+   3955 root      20   0 1467364  19236   8320 S   0,0   0,8   0:26.37 snapd
+   4186 root       0 -20       0      0      0 I   0,0   0,0   0:01.38 kworker/0:1H-kblockd
+   6359 safwood   20   0  226808  41280  20504 S   0,0   1,7   0:16.77 Xwayland
+   6363 safwood   20   0  537452  25680  17372 S   0,0   1,0   0:00.28 gsd-xsettings
+   6390 safwood   20   0  202792  19248  12340 S   0,0   0,8   0:00.15 ibus-x11
+   6591 safwood   20   0 1237032   9984   4096 S   0,0   0,4   0:00.12 snap
+   7106 safwood   20   0 1123,3g 152340 108596 S   0,0   6,2   0:29.78 code
+   7111 safwood   20   0   32,2g  33024  32384 S   0,0   1,3   0:00.02 code
+   7112 safwood   20   0   32,2g  35712  32896 S   0,0   1,5   0:00.02 code
+   7114 safwood   20   0   32,2g   6428   3584 S   0,0   0,3   0:00.01 code
+   7128 safwood   20   0   32,0g  12624  10752 S   0,0   0,5   0:00.10 chrome_crashpad
+   7143 safwood   20   0   32,5g  58436  53612 S   0,0   2,4   0:22.25 code
+   7152 safwood   20   0   32,3g  49568  46904 S   0,0   2,0   0:01.68 code
+   7165 safwood   20   0 1132,9g 220744  84440 S   0,0   9,0   2:11.64 code
+   7208 safwood   20   0 1122,8g  77920  59640 S   0,0   3,2   0:12.31 code
+   7674 safwood   20   0    8096   5760   4608 S   0,0   0,2   0:00.10 ssh-agent
+   7722 safwood   20   0  246400   8960   6016 S   0,0   0,4   0:01.45 fish
+   8282 safwood   20   0 1122,8g  79232  64128 S   0,0   3,2   0:01.53 code
+   8284 safwood   20   0 1122,8g 133744  67912 S   0,0   5,4   0:07.98 code
+   8340 safwood   20   0   19956   5504   3840 S   0,0   0,2   0:00.04 bash
+   9059 safwood   20   0 1122,7g  72376  57856 S   0,0   2,9   0:00.73 code
+   9180 safwood   20   0   17408   2688   2432 T   0,0   0,1   0:00.00 less
+   9414 root      20   0       0      0      0 I   0,0   0,0   0:01.54 kworker/1:1-events
+   9473 root      20   0       0      0      0 I   0,0   0,0   0:00.57 kworker/0:3-ata_sff
+   9709 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0
+   9747 safwood   20   0 2862832  59484  43268 S   0,0   2,4   0:00.82 gjs
+   9778 root      20   0       0      0      0 I   0,0   0,0   0:00.59 kworker/u6:2-events_unbound
+   9899 root      20   0       0      0      0 I   0,0   0,0   0:00.58 kworker/u6:4-events_unbound
+  10115 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0-ata_sff
+  10116 root      20   0       0      0      0 I   0,0   0,0   0:00.12 kworker/2:0-events
+  10167 safwood   20   0  484888  13568  11392 S   0,0   0,6   0:00.09 xdg-desktop-por
+  10171 safwood   20   0  670940  28180  19952 S   0,0   1,1   0:00.18 xdg-desktop-por
+  10183 safwood   20   0  352580  24580  17540 S   0,0   1,0   0:00.10 xdg-desktop-por
+  10241 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/2:3-events
+  10391 root      20   0       0      0      0 I   0,0   0,0   0:00.03 kworker/u6:0-events_power_efficient
+  10431 root      20   0       0      0      0 I   0,0   0,0   0:00.06 kworker/u6:1-events_power_efficient
+  10546 safwood   20   0 1130,8g  86616  75392 S   0,0   3,5   0:00.25 code
+  10626 safwood   20   0   17040   2304   2304 S   0,0   0,1   0:00.00 script
+  10627 safwood   20   0   19928   5376   3712 S   0,0   0,2   0:00.01 bash^C
+[?2004h]0;safwood@ubuntu: ~[01;32msafwood@ubuntu[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2023-10-28 23:20:34+03:00 [COMMAND_EXIT_CODE="0"]
