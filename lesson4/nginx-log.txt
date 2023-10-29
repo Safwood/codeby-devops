@@ -1,0 +1,48 @@
+Script started on 2023-10-29 13:42:33+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="132" LINES="40"]
+[?2004h]0;root@ubuntu: /lib/systemd/systemroot@ubuntu:/lib/systemd/system# systemcl[Ktl disable nginx
+[?2004lSynchronizing state of nginx.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install disable nginx
+Removed /etc/systemd/system/multi-user.target.wants/nginx.service.
+[?2004h]0;root@ubuntu: /lib/systemd/systemroot@ubuntu:/lib/systemd/system# cat n[K/lib/systemd/system/nginx-service
+[?2004lcat: /lib/systemd/system/nginx-service: No such file or directory
+[?2004h]0;root@ubuntu: /lib/systemd/systemroot@ubuntu:/lib/systemd/system# cat /lib/systemd/system/nginx-service[1Pservice.service[C
+[?2004l[Unit]
+Description=Nginx server and a reverse proxy server
+After=syslog.target network-online.target remote-fs.target nss-lookup.target
+Wants=network-online.target
+
+[Service]
+Type=forking
+PIDFile=/run/nginx.pid
+ExecStartPre=/usr/sbin/nginx -t
+ExecStart=/usr/sbin/nginx
+ExecReload=/usr/sbin/nginx -s reload
+ExecStop=-/bin/kill -s QUIT $MAINPID
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+[?2004h]0;root@ubuntu: /lib/systemd/systemroot@ubuntu:/lib/systemd/system# cat /lib/systemd/system/nginx.service-service[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Psystemctl disable nginx[1P[1P[1P[C[1@a[1@n[1P[1P[1@e[1@n[C
+[?2004lSynchronizing state of nginx.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable nginx
+Created symlink /etc/systemd/system/multi-user.target.wants/nginx.service → /lib/systemd/system/nginx.service.
+[?2004h]0;root@ubuntu: /lib/systemd/systemroot@ubuntu:/lib/systemd/system# systemctl enable nginx[1P nginx[1P nginx[1P nginx[1P nginx[1P nginx[1P nginxs nginxa nginx[1P nginxt nginxa nginxt nginxu nginxs nginx[C nginx
+[?2004l[?1h=[0;1;32m●[0m nginx.service - Nginx server and a reverse proxy server[m
+     Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)[m
+     Active: [0;1;32mactive (running)[0m since Sun 2023-10-29 12:49:28 MSK; 55min ago[m
+   Main PID: 37909 (nginx)[m
+      Tasks: 4 (limit: 2782)[m
+     Memory: 5.1M[m
+        CPU: 50ms[m
+     CGroup: /system.slice/nginx.service[m
+             ├─37909 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"[m
+             ├─37911 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""[m
+             ├─37912 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""[m
+             └─37913 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""[m
+[m
+окт 29 12:49:28 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...[m
+окт 29 12:49:28 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.[m
+[K[?1l>[?2004h]0;root@ubuntu: /lib/systemd/systemroot@ubuntu:/lib/systemd/system# exit
+[?2004lexit
+
+Script done on 2023-10-29 13:45:00+03:00 [COMMAND_EXIT_CODE="0"]
